@@ -1,0 +1,30 @@
+
+.format_1 {
+    background-color: blueviolet;
+    color: white;
+    height: 123px;
+}
+#id_1 {
+    background-color: black;
+    height: 87px;
+    color: white;  
+}
+#id_2 {
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color:white;
+}
+#format_4 {
+    color: white;
+    background-color: orange;
+    height:37px;
+    margin-left: 15px;
+}
+.format_5 {
+    background-color: red;
+    color: white;
+    width: 180px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}        

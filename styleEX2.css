@@ -1,0 +1,27 @@
+
+    .background1 {
+        background-color: gray;
+        height: 400px;
+        width: 400px;
+    }
+    #div_a {
+        background-color: red;
+        height: 100px;
+        width: 200px;
+    }
+    #div_b {
+        background-color: green;
+        height: 100px;
+        width: 350px;
+        position: relative;
+    }
+    #div_c {
+        background-color: yellow;
+        height: 100px;
+        width: 200px;
+        position: relative;
+        padding-right: 0px;
+        right: auto;
+        top: -40px;
+    }
+

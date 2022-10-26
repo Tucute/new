@@ -1,0 +1,11 @@
+.site-header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#id-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-grap
+
+}

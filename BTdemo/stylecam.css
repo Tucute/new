@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: inline;
+}
+.header {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    background-color: lightblue;
+    background-color: grey;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    text-align: center;
+}
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.menu {
+    background-color: black;
+}
+.root {
+    display: flex;
+    line-height: 40px;
+}
+.root li a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+}
+.root li a :hover {
+    background-color: orange;
+}
+.content {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.left-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.item li {
+    padding: 25px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+.right-section {
+    background-color: bisque;
+    border: 1px solid black;
+}
+.right-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.product {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.camera {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.name {
+    padding-top: 15px;
+    color: blue;
+}
+.product-img {
+    height: 250px;
+    width: 250px;
+}
+.arlet {
+    color: red;
+}
+.add-button {
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.footer {
+    text-align: center;
+}

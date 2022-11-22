@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ex1_lại</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Form</h2>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open form</button>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            <h3>Datos de instructor</h3>
+            <form>
+            <div class="row">
+                <div class="col-md-2 pt-3 text-right">
+                    <label class="control-label" for="Run">Run</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-md-2 pt-3 text-right">
+                    <label for="NC">Nombre Completo</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <p></p>
+            <div class="row">    
+                <div class="col-md-2 pt-3 text-right">
+                    <label class="control-label" for="Date">Fecha Nacimiento</label>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">Date</div>
+                        <input class="form-control" id="Date" name="Date" type="text"/ placeholder="dd-mm-aaaa">
+                    </div>
+                </div>
+                <div class="col-md-2 pt-3 text-right">
+                    <label class="control-label" for="email">Email</label>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                        @
+                        </div>
+                        <input class="form-control" id="email" name="email" type="text"/>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-2 pt-3 text-right">
+                    <label class="control-label" for="tlf">Teléfono</label>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group">
+                        <div class="input-group-addon">12</div>
+                        <input class="form-control" id="tlf" name="tlf" type="text"/>
+                    </div>
+                </div>
+                <div class="col-md-2 pt-3 text-right">
+                    <label for="Dr">Directiom</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-2 pt-3 text-right">
+                    <label class="control-label" for="Ciudad">Ciudad</label>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group-text">
+                        <select class="form-control" id="Ciudad" name="Ciudad">
+                        <option selected>Seleccione una...</option>
+                        <option value="aaaa">aaaa</option>
+                        <option value="bbbb">bbbb</option>
+                        <option value="cccc">cccc</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2 pt-3 text-right">
+                    <label for="Comuna">Comuna</label>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group-text">
+                        <select class="form-control" id="Ciudad" name="Ciudad" >
+                        <option selected>Seleccione una...</option>
+                        <option value="aaaa">aaaa</option>
+                        <option value="bbbb">bbbb</option>
+                        <option value="cccc">cccc</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-md-2 pt-3 text-right">
+                    <label for="Comuna">Auto</label>
+                </div>
+                <div class="col-md-10">
+                    <div class="input-group-text">
+                        <select class="form-control" id="Ciudad" name="Ciudad" >
+                        <option selected>XXXX-15</option>
+                        <option value="aaaa">aaaa</option>
+                        <option value="bbbb">bbbb</option>
+                        <option value="cccc">cccc</option>
+                        </select>
+                    </div>
+                </div>
+            </div> 
+            <p></p>
+            <div class="rows">
+                <div class="col-md-13 pt-3 text-right">
+                    <button type="submit" class="btn btn-default">Anardir</button> 
+                </div>
+            </div>
+            </form> 
+        </div>
+    </div>
+  </div>
+</body>
+</html>
